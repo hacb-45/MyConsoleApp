@@ -30,3 +30,20 @@ jobs:
           path: TestResults-${{ matrix.dotnet-version }}
         # Use always() to always run this step to publish test results when there are test failures
         if: ${{ always() }}
+      - name: Debug test execution
+        run: |
+          echo "=== Current Directory ==="
+          pwd
+          ls -la
+    
+          echo "=== Project Files ==="
+          find . -name "*.csproj" -type f
+          
+          echo "=== Running Tests with Verbose Output ==="
+          dotnet test --no-restore -v n
+          
+          echo "=== Checking Test Results Directory ==="
+          ls -laR TestResults-8.0.x 2>&1 || echo "Directory does not exist"
+          
+          echo "=== Searching for Any TRX Files ==="
+          find . -name "*.trx" -type f
