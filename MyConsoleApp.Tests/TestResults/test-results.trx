@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c06ccdef-174f-41e0-bb3b-4074980e3a5e" name="@hacb-VMware-Virtual-Platform 2026-11-02 17:11:08" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-02T17:11:08.9046661+00:00" queuing="2026-11-02T17:11:08.9046661+00:00" start="2026-11-02T17:11:07.5866216+00:00" finish="2026-11-02T17:11:08.9170498+00:00" />
+  <TestSettings name="default" id="687d851a-d4b5-4ac6-8ebd-47ea68686a7d">
+    <Deployment runDeploymentRoot="_hacb-VMware-Virtual-Platform_2026-11-02_17_11_08" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="be1fbd7d-3003-468c-bed7-0459448d2e80" testId="92d17e67-92e0-bc12-840c-8afca483ddde" testName="MyConsoleApp.Tests.CalculatorTests.Add_VariousInputs_ReturnsCorrectSum(a: 100, b: 200, expected: 300)" computerName="hacb-VMware-Virtual-Platform" duration="00:00:00.0000074" startTime="2026-11-02T17:11:08.6529461+00:00" endTime="2026-11-02T17:11:08.6530297+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be1fbd7d-3003-468c-bed7-0459448d2e80" />
+    <UnitTestResult executionId="c97c952d-e973-4e87-8ac5-c97373d3d82b" testId="0396e296-f03b-d2f2-23e3-62f50f8ab2f8" testName="MyConsoleApp.Tests.CalculatorTests.Divide_ByZero_ThrowsDivideByZeroException" computerName="hacb-VMware-Virtual-Platform" duration="00:00:00.0011463" startTime="2026-11-02T17:11:08.6556903+00:00" endTime="2026-11-02T17:11:08.6558748+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c97c952d-e973-4e87-8ac5-c97373d3d82b" />
+    <UnitTestResult executionId="fc8faf7a-d823-486e-b55e-4824a95fc6c1" testId="48c01ffd-e604-0b3d-253e-c4cc0a5566dc" testName="MyConsoleApp.Tests.CalculatorTests.Add_VariousInputs_ReturnsCorrectSum(a: 0, b: 0, expected: 0)" computerName="hacb-VMware-Virtual-Platform" duration="00:00:00.0003437" startTime="2026-11-02T17:11:08.6510644+00:00" endTime="2026-11-02T17:11:08.6514936+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc8faf7a-d823-486e-b55e-4824a95fc6c1" />
+    <UnitTestResult executionId="05929bfd-999a-4b61-a127-9426bb480b30" testId="9dea5cd1-0103-2d2c-9751-43da05d0362a" testName="MyConsoleApp.Tests.CalculatorTests.Add_VariousInputs_ReturnsCorrectSum(a: -1, b: 1, expected: 0)" computerName="hacb-VMware-Virtual-Platform" duration="00:00:00.0078416" startTime="2026-11-02T17:11:08.6074478+00:00" endTime="2026-11-02T17:11:08.6280943+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05929bfd-999a-4b61-a127-9426bb480b30" />
+    <UnitTestResult executionId="2e60367c-b606-4705-a28c-b7b8451781fa" testId="66bba498-c0f1-fc70-8f91-8785baff832b" testName="MyConsoleApp.Tests.CalculatorTests.Add_TwoPositiveNumbers_ReturnsSum" computerName="hacb-VMware-Virtual-Platform" duration="00:00:00.0000983" startTime="2026-11-02T17:11:08.6552634+00:00" endTime="2026-11-02T17:11:08.6553435+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e60367c-b606-4705-a28c-b7b8451781fa" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MyConsoleApp.Tests.CalculatorTests.Add_TwoPositiveNumbers_ReturnsSum" storage="/home/hacb/documents/myconsoleapp/myconsoleapp.tests/bin/debug/net10.0/myconsoleapp.tests.dll" id="66bba498-c0f1-fc70-8f91-8785baff832b">
+      <Execution id="2e60367c-b606-4705-a28c-b7b8451781fa" />
+      <TestMethod codeBase="/home/hacb/Documents/MyConsoleApp/MyConsoleApp.Tests/bin/Debug/net10.0/MyConsoleApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MyConsoleApp.Tests.CalculatorTests" name="Add_TwoPositiveNumbers_ReturnsSum" />
+    </UnitTest>
+    <UnitTest name="MyConsoleApp.Tests.CalculatorTests.Add_VariousInputs_ReturnsCorrectSum(a: 0, b: 0, expected: 0)" storage="/home/hacb/documents/myconsoleapp/myconsoleapp.tests/bin/debug/net10.0/myconsoleapp.tests.dll" id="48c01ffd-e604-0b3d-253e-c4cc0a5566dc">
+      <Execution id="fc8faf7a-d823-486e-b55e-4824a95fc6c1" />
+      <TestMethod codeBase="/home/hacb/Documents/MyConsoleApp/MyConsoleApp.Tests/bin/Debug/net10.0/MyConsoleApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MyConsoleApp.Tests.CalculatorTests" name="Add_VariousInputs_ReturnsCorrectSum" />
+    </UnitTest>
+    <UnitTest name="MyConsoleApp.Tests.CalculatorTests.Add_VariousInputs_ReturnsCorrectSum(a: 100, b: 200, expected: 300)" storage="/home/hacb/documents/myconsoleapp/myconsoleapp.tests/bin/debug/net10.0/myconsoleapp.tests.dll" id="92d17e67-92e0-bc12-840c-8afca483ddde">
+      <Execution id="be1fbd7d-3003-468c-bed7-0459448d2e80" />
+      <TestMethod codeBase="/home/hacb/Documents/MyConsoleApp/MyConsoleApp.Tests/bin/Debug/net10.0/MyConsoleApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MyConsoleApp.Tests.CalculatorTests" name="Add_VariousInputs_ReturnsCorrectSum" />
+    </UnitTest>
+    <UnitTest name="MyConsoleApp.Tests.CalculatorTests.Add_VariousInputs_ReturnsCorrectSum(a: -1, b: 1, expected: 0)" storage="/home/hacb/documents/myconsoleapp/myconsoleapp.tests/bin/debug/net10.0/myconsoleapp.tests.dll" id="9dea5cd1-0103-2d2c-9751-43da05d0362a">
+      <Execution id="05929bfd-999a-4b61-a127-9426bb480b30" />
+      <TestMethod codeBase="/home/hacb/Documents/MyConsoleApp/MyConsoleApp.Tests/bin/Debug/net10.0/MyConsoleApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MyConsoleApp.Tests.CalculatorTests" name="Add_VariousInputs_ReturnsCorrectSum" />
+    </UnitTest>
+    <UnitTest name="MyConsoleApp.Tests.CalculatorTests.Divide_ByZero_ThrowsDivideByZeroException" storage="/home/hacb/documents/myconsoleapp/myconsoleapp.tests/bin/debug/net10.0/myconsoleapp.tests.dll" id="0396e296-f03b-d2f2-23e3-62f50f8ab2f8">
+      <Execution id="c97c952d-e973-4e87-8ac5-c97373d3d82b" />
+      <TestMethod codeBase="/home/hacb/Documents/MyConsoleApp/MyConsoleApp.Tests/bin/Debug/net10.0/MyConsoleApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MyConsoleApp.Tests.CalculatorTests" name="Divide_ByZero_ThrowsDivideByZeroException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="92d17e67-92e0-bc12-840c-8afca483ddde" executionId="be1fbd7d-3003-468c-bed7-0459448d2e80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0396e296-f03b-d2f2-23e3-62f50f8ab2f8" executionId="c97c952d-e973-4e87-8ac5-c97373d3d82b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48c01ffd-e604-0b3d-253e-c4cc0a5566dc" executionId="fc8faf7a-d823-486e-b55e-4824a95fc6c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dea5cd1-0103-2d2c-9751-43da05d0362a" executionId="05929bfd-999a-4b61-a127-9426bb480b30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66bba498-c0f1-fc70-8f91-8785baff832b" executionId="2e60367c-b606-4705-a28c-b7b8451781fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.14)
+[xUnit.net 00:00:00.17]   Discovering: MyConsoleApp.Tests
+[xUnit.net 00:00:00.26]   Discovered:  MyConsoleApp.Tests
+[xUnit.net 00:00:00.30]   Starting:    MyConsoleApp.Tests
+[xUnit.net 00:00:00.40]   Finished:    MyConsoleApp.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
