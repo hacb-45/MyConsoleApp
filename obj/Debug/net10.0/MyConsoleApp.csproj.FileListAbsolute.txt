@@ -1,0 +1,14 @@
+/home/hacb/Documents/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp
+/home/hacb/Documents/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.deps.json
+/home/hacb/Documents/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.runtimeconfig.json
+/home/hacb/Documents/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.dll
+/home/hacb/Documents/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.pdb
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.AssemblyInfoInputs.cache
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.AssemblyInfo.cs
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.csproj.CoreCompileInputs.cache
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.dll
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/refint/MyConsoleApp.dll
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.pdb
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.genruntimeconfig.cache
+/home/hacb/Documents/MyConsoleApp/obj/Debug/net10.0/ref/MyConsoleApp.dll
