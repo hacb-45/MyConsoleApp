@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("The current time is " + DateTime.Now);
+﻿using MyConsoleApp;
+
+var calculator = new Calculator();
+Console.WriteLine($"Result: {calculator.Add(2, 3)}");
